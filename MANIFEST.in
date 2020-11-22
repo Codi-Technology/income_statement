@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include income_statement *.css
+recursive-include income_statement *.csv
+recursive-include income_statement *.html
+recursive-include income_statement *.ico
+recursive-include income_statement *.js
+recursive-include income_statement *.json
+recursive-include income_statement *.md
+recursive-include income_statement *.png
+recursive-include income_statement *.py
+recursive-include income_statement *.svg
+recursive-include income_statement *.txt
+recursive-exclude income_statement *.pyc
